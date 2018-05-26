@@ -14,7 +14,7 @@ public class P190ReverseBits {
         for(int j = 0 ; j< len;j++)
             sb.append("0");
         long  result = Long.valueOf(sb.toString(),2);
-        return result;
+        return (int)result;
 
     }
 }
